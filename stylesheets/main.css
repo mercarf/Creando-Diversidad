@@ -1,38 +1,92 @@
 * {
   box-sizing: border-box;
   color: inherit;
+  list-style-type: none;
+  text-decoration: none;
 }
-/* :root {
-    --primary-font: "Montserrat", sans-serif;
-    --regular-weight: 400;
-    --bold-weight: 700;
-    --primary-color: #cc212a;
-    --light-color: white;
-    --dark-color: black;
-  } */
+:root {
+  --primary-font: "Rubik", sans-serif;
+  --regular-weight: 400;
+  --bold-weight: 700;
+  --primary-color: #4a4a4a; /* texto del menú */
+  --light-color: #3cdbc0; /* color de fondo de la página */
+  --dark-color: #ffffff; /* color de texto de "Creando diversidad digital" */
+}
 
-/*   body {
-    font-family: var(--primary-font);
-    font-weight: var(--regular-weight);
-  }
-  
-  h1 {
-    margin: 0;
-    font-weight: var(--bold-weight);
-  }
-  
-  .wrapper {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    padding: 15px;
-  } */
+body {
+  font-family: var(--primary-font);
+  font-weight: var(--regular-weight);
+}
+
+h1 {
+  margin: 0;
+  font-weight: var(--bold-weight);
+}
+
+/* WRAPPER - COLUMNA CENTRAL */
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+}
 
 /* HEADER */
+.header {
+  border: 1px solid red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: inline-block;
+  width: 115px;
+  padding-top: 10px;
+  /* border: 1px solid red; */
+}
+.header-logo img {
+  width: 100%;
+}
+
+.header-menu {
+  padding: 0px;
+  color: var(--primary-color);
+}
+.header-menu li {
+  display: inline-block;
+  /* border: 1px solid red; */
+}
+.header-menu li a {
+  padding: 16px;
+}
 
 /* MAIN */
-
-/* FOOTER */
+.main {
+  /* position: relative; */
+  border: 1px solid red;
+  background-color: var(--light-color);
+  height: 100vh;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-title {
+  color: var(--dark-color);
+}
+.main-title span {
+  display: block;
+  text-align: center;
+}
 
 @media all and(min-width:768px) {
 }

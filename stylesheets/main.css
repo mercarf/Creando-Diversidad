@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  color: inherit;
+}
+/* :root {
+    --primary-font: "Montserrat", sans-serif;
+    --regular-weight: 400;
+    --bold-weight: 700;
+    --primary-color: #cc212a;
+    --light-color: white;
+    --dark-color: black;
+  } */
+
+/*   body {
+    font-family: var(--primary-font);
+    font-weight: var(--regular-weight);
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: var(--bold-weight);
+  }
+  
+  .wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+  } */
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+
+@media all and(min-width:768px) {
+}

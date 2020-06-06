@@ -71,7 +71,11 @@ h1 {
   font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-transform: uppercase;
+  padding: 10px;
+  display: inline-block;
 }
+
 
 /* MAIN */
 .main {
@@ -88,13 +92,15 @@ h1 {
 .main-title {
   color: var(--dark-color);
   font-size: 30px;
+  font-size: 1.875rem;
+  text-transform: capitalize;
 }
 .main-title span {
   display: block;
   text-align: center;
 }
 
-@media all and(min-width:768px) {
+@media all and (min-width:768px) {
   .header .wrapper {
     flex-direction: row;
     justify-content: space-between;

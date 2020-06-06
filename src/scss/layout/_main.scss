@@ -7,12 +7,12 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  transform: translate(0, 106px);
+  transform: translate(0, 136px);
 
   &__title {
     color: $dark-color;
     font-size: 30px;
-    font-size: 1.875rem;
+    /* font-size: 1.875rem; */
     text-transform: capitalize;
 
     & span {
@@ -21,7 +21,7 @@
     }
   }
   @include tablet {
-    transform: translate(0, 90px);
+    transform: translate(0, 105px);
     
     &__title {
       font-size: 40px;
